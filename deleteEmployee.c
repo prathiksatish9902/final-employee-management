@@ -21,7 +21,6 @@ void deleteEmployee(int id) {
         return;
     }
 
-    // Mark as deleted in memory (optional - you might want to keep it in the list)
     if (prev == NULL) {
         head = temp->next;
     } else {

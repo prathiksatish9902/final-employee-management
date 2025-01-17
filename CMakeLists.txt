@@ -19,7 +19,9 @@ add_executable(Employee_Mgmt_Final main.c
     sortEmployee.c
     updateEmployee.c
     menu.h
-    menu.c)
+    menu.c
+
+)
 
 include(GNUInstallDirs)
 install(TARGETS Employee_Mgmt_Final
